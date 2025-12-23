@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int solution(int num1, int num2) {
+    if (0 <= num1 && num1 <= 100 && 0 <= num2 && num2 <= 100) {
+         return num1 * num2;
+    }
+    else {
+    cout << "값은 0 ~ 100 사이여야 합니다!" << endl;
+    return -1;
+    }
+}
